@@ -1,44 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta name="viewport">
-        <meta charset="utf-8">
-        <title>Articl Web Gis For utility Network</title>
-    </head>
-    <body>
-        <style>.word { text-decoration: underline; text-underline-offset: 7px;} </style>
-        <h1 class="word" style="text-align: center;"> <strong>Geographic Information Systems (GIS) and their role in developing smart infrastructure</strong></h1>
-        <img src="gis.jpg" alt="" width="800" height="450" style="display: block; margin:auto">
-            <h2 style="text-align: center;">➤ Geographic Information Systems (GIS) are among the most important modern technologies that have revolutionized the way spatial data is managed and analyzed. It is no longer just about maps; it has become an integrated decision-making system that relies on geographic location as a fundamental element of analysis.</h2>
-            <ul>
-                <li>
-                    <strong><em>What is GIS?</em></strong> <br> <strong>It is a system that integrates:</strong>
-                      <ol>
-                        <li>Spatial Data → represents location (point – line – polygon).</li>
-                        <li>Attribute Data → represents information related to the site.</li>
-                        <li>Advanced analytical tools.</li>
-                        <li>Strong databases.</li>
-                      </ol>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/PZ1AUQlSA7g?si=XuOcZlOg0UjNsHQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
-                <br>
-                <li>
-                    <strong><em>The importance of GIS in infrastructure projects</em></strong> <br><strong>In road, water, drainage, electricity, and telecommunications projects, GIS plays a pivotal role in:</strong>
-                 <ol>
-                    <li><strong>Utility Network Management</strong> <br>Through systems such as ArcGIS Utility Network</li>
-                    <li><strong>Supporting the decision-maker</strong> <br>Using tools such as ArcGIS Pro</li>
-                    <li><strong>Integration with engineering systems</strong> <br>There is now direct integration between GIS and design software such as AutoCAD and Civil 3D</li></ol></li>
-                    <br>
-                <li><strong><em>GIS and Smart Cities</em></strong> <br><strong>As part of the digital transformation, smart cities rely on GIS in:</strong>
-                           <ol>
-                            <li>Traffic Department</li>
-                            <li>Service distribution</li>
-                            <li>Monitoring energy consumption</li>
-                            <li>Urban planning</li>
-                            <li>Disaster Management</li>
-                            </ol></li>
-            </ul>
-            <p style="text-align: center;"><strong><em>Furthermore, the important role of Geographic Information Systems (GIS) is to provide the best services to everyone and to help in the best ways to access services through Google Earth or Google Maps.</em></strong></p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d299122.28842959076!2d30.690593197029315!3d29.37322581038415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sar!2seg!4v1772575773047!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <P>By:Eng Hossam Mohamed</P>
-    </body>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>GIS Projects</title>
+<img src="ADF.avif" alt="" width="400px">
+<style>
+body{
+    font-family: Arial;
+    text-align: center;
+    margin-top: 100px;
+}
+
+select{
+    padding: 10px;
+    font-size: 18px;
+    width: 250px;
+}
+</style>
+
+</head>
+<body>
+
+<h2> GIS بعض أعمالي علي </h2>
+
+<select onchange="openProject(this.value)">
+<option value="">-- أختر ماتريد رؤيته --</option>
+
+<option value="https://hossam991144.github.io/ARTICAL-WEB-GIS/">مقاله عن نظم المعلومات الجغرافية</option>
+
+<option value="https://hossam991144.github.io/Editying/">Editing</option>
+
+<option value="https://hossam991144.github.io/Dem/">Raster Projecr</option>
+
+<option value="https://hossam991144.github.io/Gaza/">Gaza</option>
+
+<option value="https://hossam991144.github.io/Map-output/">Map output</option>
+
+<option value="https://hossam991144.github.io/Network-analysis/">Network analysis</option>
+
+<option value="map.html">Project Atm FAYOUM</option>
+
+<option value="map.html">Red Sea Mountain Project</option>
+
+<option value="map.html">Jabal Al-Uwaynat Project</option>
+
+<option value="map.html">Omar Allam Project</option>
+
+<option value="https://hossam991144.github.io/Project-Apha/">Project Apha</option>
+
+
+</select>
+
+<script>
+
+function openProject(page){
+    if(page !== ""){
+        window.location.href = page;
+    }
+}
+
+</script>
+
+</body>
 </html>
